@@ -44,7 +44,7 @@ int hsh(info_t *info, char **av)
 }
 
 /**
- * find_builtin - finds a builtin command
+ * find_builtin - function that finds a builtin command
  * @info: the info structure
  *
  * Return: -1 if builtin not found,
@@ -78,7 +78,7 @@ int find_builtin(info_t *info)
 }
 
 /**
- * find_cmd - finds a command in the PATH
+ * find_cmd - function that finds a command in the PATH
  * @info: the info structure
  *
  * Return: void
