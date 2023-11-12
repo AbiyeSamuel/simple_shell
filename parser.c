@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * is_cmd - determines if a file is an executable command
- * @info: the info struct
+ * is_cmd - checks if a file is an executable command
+ * @info: the info structure 
  * @path: path to the file
  *
- * Return: 1 if true, 0 otherwise
+ * Return: 1 if true, else 0
  */
 int is_cmd(info_t *info, char *path)
 {
@@ -23,10 +23,10 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * dup_chars - duplicates characters
+ * dup_chars - duplicates characters from a start point to the next
  * @pathstr: the PATH string
- * @start: starting index
- * @stop: stopping index
+ * @start: the starting index
+ * @stop: the stopping index
  *
  * Return: pointer to new buffer
  */
@@ -43,12 +43,12 @@ char *dup_chars(char *pathstr, int start, int stop)
 }
 
 /**
- * find_path - finds this cmd in the PATH string
- * @info: the info struct
- * @pathstr: the PATH string
- * @cmd: the cmd to find
+ * find_path - finds this command in the PATH string
+ * @info: the info structure 
+ * @pathstr: PATH string
+ * @cmd: the command to find
  *
- * Return: full path of cmd if found or NULL
+ * Return: full path of cmd if found, NULL
  */
 char *find_path(info_t *info, char *pathstr, char *cmd)
 {
