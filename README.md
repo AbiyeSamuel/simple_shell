@@ -52,17 +52,6 @@ it Handle Command Path Also Like `/bin/ls` And All The Option And Path Like `/bi
 
 it Handle Comments **#** 
 
-### Eaxmples Builtin
-```
-**Case Exit Statue**
-```
-Username@your-regular-prompt:~$ ./hsh
-$ exit 98
-Username@your-regular-prompt:~$ echo $?
-98
-Username@your-regular-prompt:~$
-
-```
 To Keep Exploring The echo Builtin and history ... Using The Help Builtin
 
 ### Also
@@ -73,6 +62,7 @@ To Keep Exploring The echo Builtin and history ... Using The Help Builtin
 * Handle the $? variable
 * Handle the $$ variable
 * Handle The Argument file like `./hsh test` Where test is a file filled with command and builtin to excute.
+
 ### List of functions and system calls we could use, as provided by the school.
 List of allowed functions and system calls
 
