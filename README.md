@@ -1,16 +1,14 @@
 # Simple Shell
 
 ### Introduction
-This repository is a [Holberton School](https://www.holbertonschool.com/) Project. The school project consisted in writing a shell like sh (Bourne Shell) by Stephen Bourne  , in **C**, using a limited number of standard library functions, So Instead we used ower own function that we rewrited over the past three month [Here](https://github.com/Theemiss/holbertonschool-low_level_programming/)
+This repository is a [Holberton School](https://www.holbertonschool.com/) Project. The school project considered of writing a shell like sh (Bourne Shell) by Stephen Bourne  , in **C**, using a limited number of standard library functions.
 
 The goal in this project was to make us understand how a shell works. To single out some items: what is the *environment*, the difference between *functions* and *system calls*, how to create *processes* using `execve`...  
 
 ## Usage 
 In order to run this program, 
 
-Clone This Repo
-
-`` git clone https://github.com/Theemiss/simple_shell ``
+Clone This Repo and then
 
 compile it with  
 
@@ -53,28 +51,8 @@ it Handle All Three Togther Like `ls -l /var `
 it Handle Command Path Also Like `/bin/ls` And All The Option And Path Like `/bin/ls -l /var`
 
 it Handle Comments **#** 
-## Examples Command
-**Example 1**
-```
-Username@your-regular-prompt:~$ ./hsh
-$ pwd
-/home/username/
-$ ^D
-Username@your-regular-prompt:~$
-```
-**Example 2**
-```
-Username@your-regular-prompt:~$ ./hsh
-$ ls -l /tmp 
--rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
-drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
--rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0
-$ ^D
-Username@your-regular-prompt:~$
-```
-### Exmples Builtin
+
+### Eaxmples Builtin
 ```
 **Case Exit Statue**
 ```
@@ -85,7 +63,7 @@ Username@your-regular-prompt:~$ echo $?
 Username@your-regular-prompt:~$
 
 ```
-Keep Exploring The echo Builtin and history ... Using The Help Builtin
+To Keep Exploring The echo Builtin and history ... Using The Help Builtin
 
 ### Also
 * Handle Ctrl+C: your shell should not quit when the user inputs ^C
@@ -95,7 +73,7 @@ Keep Exploring The echo Builtin and history ... Using The Help Builtin
 * Handle the $? variable
 * Handle the $$ variable
 * Handle The Argument file like `./hsh test` Where test is a file filled with command and builtin to excute.
-### List of functions and system calls we could use
+### List of functions and system calls we could use, as provided by the school.
 List of allowed functions and system calls
 
     access (man 2 access)
@@ -149,9 +127,8 @@ List of allowed functions and system calls
  * _getline
  * _strtok
 
-Project Done on the 10th Day
+Project Done on the 15th Day
 
-Read More [Here](https://midinfotn401.medium.com/shell-step-by-step-what-happen-when-you-type-ls-l-in-the-shell-83d655712332)
 ## Authors
 * Idara Akpan (https://github.com/Idara93)
 * Abiye Samuel (http://github.com/AbiyeSamuel)
