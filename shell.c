@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
- * @ac: arg count
- * @av: arg vector
+ * main - entry point of the program
+ * @ac: the argument count
+ * @av: the argument vector
  *
  * Return: 0 on success, 1 on error
  */
